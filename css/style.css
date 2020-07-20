@@ -26,12 +26,17 @@
 /* header_top */
 
 .header_top {
-
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
 }
 
 /* hero */
 .hero {
-
+  position: relative;
+  margin-top: 100px;
 }
 
 /* MAIN */
@@ -92,6 +97,6 @@
 /* start */
 
 .start {
-  
+
 }
 /* media queries */
