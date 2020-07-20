@@ -50,4 +50,18 @@
 .deploy_text {
 
 }
+
+/* design */
+
+.design {
+
+}
+
+.carousel_design {
+  width: 50%;
+  margin: auto;
+  background-color: lightblue;
+  height: 300px;
+}
+
 /* media queries */
