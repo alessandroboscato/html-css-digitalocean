@@ -1,0 +1,32 @@
+/* debug */
+.bg_pink {
+  height: 100px;
+  background-color: pink;
+  border: 1px solid black;
+}
+
+.bg_col {
+  height: 90px;
+  background-color: lightcoral;
+  border: 1px solid red;
+}
+
+.bg_nested {
+  height: 80px;
+  background-color: yellow;
+  border: 1px solid blue;
+}
+
+/* mix */
+
+
+/* typography */
+
+
+/* header_top */
+
+.header_top {
+  width: 100%;
+  margin: auto;
+}
+/* media queries */
