@@ -21,7 +21,9 @@
 
 
 /* typography */
-
+body {
+  font-family: 'Roboto', sans-serif;
+}
 /* HEADER */
 /* header_top */
 
@@ -31,8 +33,15 @@
   left: 0;
   z-index: 1;
   width: 100%;
+  height: 100px;
+  line-height: 100px;
   background-color: #fff;
   color: #0265FF;
+  text-transform: capitalize;
+}
+
+.header_top img {
+  width: 100%;
 }
 
 /* hero */
