@@ -31,25 +31,37 @@
   left: 0;
   z-index: 1;
   width: 100%;
+  background-color: #fff;
+  color: #0265FF;
 }
 
 /* hero */
 .hero {
   position: relative;
   margin-top: 100px;
+  background-color: #0265FF;
 }
 
+.hero_text{
+  color: #fff;
+}
+
+.form_hero {
+  background-color: #fff;
+  width: 100%;
+  border-radius: 5%;
+}
 /* MAIN */
 
 /* customer */
 
 .customer {
-
+  background-color: #F2F5F9;
 }
 /* deploy */
 
 .deploy {
-
+  background-color: #fff;
 }
 
 .deploy_text {
@@ -59,7 +71,7 @@
 /* design */
 
 .design {
-
+  background-color: #F2F5F9;
 }
 
 .carousel_design {
@@ -72,19 +84,20 @@
 /* features */
 
 .features {
-
+  background-color: #fff;
 }
 
 /* regions */
 
 .regions {
-
+  background: linear-gradient(176deg, rgba(2,70,196,1) 0%, rgba(0,53,171,1) 100%);
+  color: #fff;
 }
 
 /* development */
 
 .development {
-
+background-color: #F2F5F9;
 }
 
 .carousel_development {
@@ -97,10 +110,13 @@
 /* start */
 
 .start {
-
+  background: linear-gradient(176deg, rgba(2,70,196,1) 0%, rgba(0,53,171,1) 100%);
+  color: #fff;
 }
 
 /* FOOTER */
-
+footer {
+  background-color: #010F28;
+}
 
 /* media queries */
