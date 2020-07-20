@@ -73,6 +73,19 @@
 /* regions */
 
 .regions {
-  
+
+}
+
+/* development */
+
+.development {
+
+}
+
+.carousel_development {
+  width: 50%;
+  margin: auto;
+  background-color: lightblue;
+  height: 300px;
 }
 /* media queries */
