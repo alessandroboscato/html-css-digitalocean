@@ -22,18 +22,32 @@
 
 /* typography */
 
-
+/* HEADER */
 /* header_top */
 
 .header_top {
-  max-width: 1500px;
-  margin: auto;
+
 }
 
 /* hero */
 .hero {
-  max-width: 1500px;
-  margin: auto;
+
 }
 
+/* MAIN */
+
+/* customer */
+
+.customer {
+
+}
+/* deploy */
+
+.deploy {
+
+}
+
+.deploy_text {
+
+}
 /* media queries */
