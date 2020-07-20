@@ -1,18 +1,18 @@
 /* debug */
 .bg_pink {
-  height: 100px;
+  min-height: 100px;
   background-color: pink;
   border: 1px solid black;
 }
 
 .bg_col {
-  height: 90px;
+  min-height: 90px;
   background-color: lightcoral;
   border: 1px solid red;
 }
 
 .bg_nested {
-  height: 80px;
+  min-height: 80px;
   background-color: yellow;
   border: 1px solid blue;
 }
@@ -27,7 +27,13 @@
 
 .header_top {
   max-width: 1500px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
+
+/* hero */
+.hero {
+  max-width: 1500px;
+  margin: auto;
+}
+
 /* media queries */
