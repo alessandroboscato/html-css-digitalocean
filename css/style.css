@@ -66,6 +66,14 @@ div.hero .form_hero h3, div.hero .form_hero > a {
   font-size: 18px;
 }
 
+ .deploy_text p, .deploy li {
+   font-size: 23px;
+ }
+
+ .deploy_nested p {
+   font-size: 16px;
+ }
+
 /* HEADER */
 /* header_top */
 
@@ -131,7 +139,7 @@ div.hero .form_hero h3, div.hero .form_hero > a {
 
 .customer {
   background-color: #F2F5F9;
-  color:#949FB4;
+  color: #949FB4;
 }
 
 .row_customers {
@@ -149,13 +157,27 @@ div.hero .form_hero h3, div.hero .form_hero > a {
   background-color: #fff;
 }
 
+.deploy li, .deploy p {
+  color: #949FB4;
+}
+
 .deploy .container .col-xs-12:first-of-type {
-  border-left: 1px solid black;
+  border-left: 1px solid #949FB4;
+  margin-left: 20px;
+  margin-right: -20px;
+}
+
+.deploy ul li {
+  padding-bottom: 20px;
 }
 
 .deploy_text {
 
 }
+
+/* .deploy_nested {
+  padding: 30px 30px 30px 5px;
+} */
 
 /* design */
 
