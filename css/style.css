@@ -149,6 +149,10 @@ div.hero .form_hero h3, div.hero .form_hero > a {
   background-color: #fff;
 }
 
+.deploy .container .col-xs-12:first-of-type {
+  border-left: 1px solid black;
+}
+
 .deploy_text {
 
 }
