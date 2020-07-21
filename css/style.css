@@ -40,6 +40,11 @@ body {
   font-size: 25px;
 }
 
+div.form_hero h3, a {
+  font-size: 30px;
+  font-weight: bold;
+}
+
 /* HEADER */
 /* header_top */
 
