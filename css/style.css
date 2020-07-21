@@ -182,7 +182,10 @@ div.hero .form_hero h3, div.hero .form_hero > a {
   padding-right: 40px;
 }
 
-.container_small
+.container_small {
+
+}
+
 /* design */
 
 .design {
@@ -190,10 +193,29 @@ div.hero .form_hero h3, div.hero .form_hero > a {
 }
 
 .carousel_design {
-  width: 50%;
-  margin: auto;
-  background-color: lightblue;
-  height: 300px;
+  max-width: 650px;
+  margin: auto;;
+}
+
+.carousel_design img {
+  max-width: 85%;
+  height: auto;
+  margin: 0 3%
+}
+
+.carousel_design i {
+  display: inline-block;
+  font-size: 50px;
+  vertical-align: middle;
+}
+
+.carousel_text li {
+  padding: 0;
+}
+
+.carousel_text i {
+  color: #0265FF;
+  font-size: 12px;
 }
 
 /* features */
