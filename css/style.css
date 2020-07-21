@@ -231,6 +231,16 @@ div.hero .form_hero h3, div.hero .form_hero > a {
   color: #fff;
 }
 
+.row_regions {
+  line-height: 37px;
+  min-height: 37px;
+  border-bottom: 1px solid #fff;
+}
+
+.row_regions * {
+  margin: 0;
+}
+
 /* development */
 
 .development {
