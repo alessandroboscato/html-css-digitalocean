@@ -237,6 +237,10 @@ div.hero .form_hero h3, div.hero .form_hero > a {
   border-bottom: 1px solid #fff;
 }
 
+.bottom {
+  border-bottom: none;
+}
+
 .row_regions * {
   margin: 0;
 }
