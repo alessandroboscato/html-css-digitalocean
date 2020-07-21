@@ -265,10 +265,17 @@ background-color: #F2F5F9;
   color: #fff;
 }
 
+.start a {
+  color: #0265FF;
+  font-size: 20px;
+}
+
 /* FOOTER */
 footer {
   background-color: #010F28;
 }
+
+
 
 /* media queries */
 @media screen and (min-width: 1200px) {
