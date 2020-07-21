@@ -27,6 +27,9 @@
   margin-bottom: 75px;
 }
 
+.m_bottom_40 {
+  margin-bottom: 40px;
+}
 .p_top_40 {
   padding-top: 40px;
 }
@@ -143,7 +146,7 @@ div.hero .form_hero h3, div.hero .form_hero > a {
 }
 
 .row_customers {
-  height: 200px;
+  min-height: 200px;
   line-height: 200px;
 }
 .customer img {
@@ -175,10 +178,11 @@ div.hero .form_hero h3, div.hero .form_hero > a {
 
 }
 
-/* .deploy_nested {
-  padding: 30px 30px 30px 5px;
-} */
+.deploy_nested {
+  padding-right: 40px;
+}
 
+.container_small
 /* design */
 
 .design {
