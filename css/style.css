@@ -20,9 +20,14 @@
 /* mix */
 
 
+
 /* typography */
 body {
   font-family: 'Roboto', sans-serif;
+}
+
+.header_top {
+  font-size: 16px;
 }
 /* HEADER */
 /* header_top */
@@ -33,21 +38,35 @@ body {
   left: 0;
   z-index: 1;
   width: 100%;
-  height: 100px;
-  line-height: 100px;
+  height: 75px;
+  line-height: 75px;
   background-color: #fff;
-  color: #0265FF;
   text-transform: capitalize;
 }
 
 .header_top img {
   width: 100%;
+  height: auto;
+  max-width: 180px;
 }
 
+.header_top a {
+  text-decoration: none;
+  color: #031B4E;
+}
+
+.header_top ul button {
+  color: #0265FF;
+  border-color: #0265FF;
+}
+
+.header_top button span {
+  color: #0265FF;
+}
 /* hero */
 .hero {
   position: relative;
-  margin-top: 100px;
+  margin-top: 75px;
   background-color: #0265FF;
 }
 
