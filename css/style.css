@@ -136,6 +136,10 @@ div.hero .form_hero h3, div.hero .form_hero > a {
   background-color: #0265FF;
   color: #fff;
 }
+
+.form-group img {
+  text-align: left;
+}
 /* MAIN */
 
 /* customer */
