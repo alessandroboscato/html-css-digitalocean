@@ -19,7 +19,9 @@
 
 /* mix */
 
-
+.m_top_75 {
+  margin-top: 75px;
+}
 
 /* typography */
 body {
@@ -27,8 +29,17 @@ body {
 }
 
 .header_top {
-  font-size: 16px;
+  font-size: 14px;
 }
+
+.hero_text h1 {
+  font-size: 60px;
+}
+
+.hero_text p {
+  font-size: 25px;
+}
+
 /* HEADER */
 /* header_top */
 
@@ -63,11 +74,13 @@ body {
 .header_top button span {
   color: #0265FF;
 }
+
 /* hero */
 .hero {
   position: relative;
   margin-top: 75px;
   background-color: #0265FF;
+  height: 500px;
 }
 
 .hero_text{
@@ -148,3 +161,7 @@ footer {
 }
 
 /* media queries */
+@media (min-width: 1200px) {
+  .header_top {
+  font-size: 16px;
+}
