@@ -23,6 +23,10 @@
   margin-top: 75px;
 }
 
+.m_bottom_75 {
+  margin-bottom: 75px;
+}
+
 /* typography */
 body {
   font-family: 'Roboto', sans-serif;
@@ -33,14 +37,14 @@ body {
 }
 
 .hero_text h1 {
-  font-size: 60px;
+  font-size: 45px;
 }
 
 .hero_text p {
-  font-size: 25px;
+  font-size: 20px;
 }
 
-div.form_hero h3, a {
+div.hero .form_hero h3, div.hero .form_hero > a {
   font-size: 30px;
   font-weight: bold;
 }
@@ -85,7 +89,7 @@ div.form_hero h3, a {
   position: relative;
   margin-top: 75px;
   background-color: #0265FF;
-  height: 500px;
+  min-height: 500px;
 }
 
 .hero_text{
@@ -95,7 +99,13 @@ div.form_hero h3, a {
 .form_hero {
   background-color: #fff;
   width: 100%;
-  border-radius: 5%;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.btn_blue {
+  background-color: #0265FF;
+  color: #fff;
 }
 /* MAIN */
 
@@ -166,7 +176,17 @@ footer {
 }
 
 /* media queries */
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .header_top {
   font-size: 16px;
+}
+
+@media screen and (min-width: 992px) {
+  .hero_text h1 {
+    font-size: 60px;
+  }
+
+  .hero_text p {
+    font-size: 25px;
+  }
 }
