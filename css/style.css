@@ -166,7 +166,6 @@ div.hero .form_hero h3 {
   max-width: 1170px;
   margin: auto;
   font-size: 0;
-  padding: 0;
 }
 .customer img{
   width: 100%;
@@ -177,8 +176,9 @@ div.hero .form_hero h3 {
 }
 
 @media screen and (max-width: 768px) {
+
   .customers li {
-    max-width: calc((100%/2) - 10px);
+    max-width: calc(50% - 10px);
 }
 /* deploy */
 
