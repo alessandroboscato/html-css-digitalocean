@@ -39,6 +39,7 @@
 }
 
 /* typography */
+
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -55,10 +56,15 @@ body {
   font-size: 20px;
 }
 
-div.hero .form_hero h3, div.hero .form_hero > a {
+div.hero .form_hero h3 {
   font-size: 30px;
-  font-weight: bold;
+  color:#061B4E;
+  font-weight: bold;;
 }
+
+ div.hero .form_hero > a {
+   font-size: 30px;
+ }
 
 .customer h4 {
   text-transform: uppercase;
@@ -101,14 +107,15 @@ div.hero .form_hero h3, div.hero .form_hero > a {
 .header_top a {
   text-decoration: none;
   color: #031B4E;
+  line-height: 75px;
 }
 
 .header_top ul button {
   color: #0265FF;
   border-color: #0265FF;
 }
-
-.header_top button span {
+/* color blue */
+.header_top button span, div.hero .form_hero > a, .form-group p a {
   color: #0265FF;
 }
 
@@ -138,7 +145,13 @@ div.hero .form_hero h3, div.hero .form_hero > a {
 }
 
 .form-group img {
-  text-align: left;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+}
+
+.logo_google {
+  padding-left: 0;
 }
 /* MAIN */
 
