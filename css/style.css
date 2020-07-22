@@ -38,6 +38,18 @@
   padding-bottom: 40px;
 }
 
+.p_top_20 {
+  padding-top: 20px;
+}
+
+.p_bottom_20 {
+  padding-bottom: 20px;
+}
+
+.p_right_30 {
+  padding-right: 30px;
+}
+
 /* typography */
 
 body {
@@ -74,12 +86,12 @@ div.hero .form_hero h3 {
   display: block;
   font-size: 18px;
 }
-
- .deploy_text p, .deploy li {
+/* testo paragrafi  */
+ .deploy_text p, .deploy li, .design_text p {
    font-size: 23px;
  }
 
- .deploy_nested p {
+ .deploy_nested p, .features p {
    font-size: 16px;
  }
 
@@ -115,7 +127,7 @@ div.hero .form_hero h3 {
   border-color: #0265FF;
 }
 /* color blue */
-.header_top button span, div.hero .form_hero > a, .form-group p a, .customer a {
+.header_top button span, div.hero .form_hero > a, .form-group p a, .customer a, .features a, .regions a, {
   color: #0265FF;
 }
 
@@ -181,10 +193,11 @@ div.hero .form_hero h3 {
 .deploy {
   background-color: #fff;
 }
-
-.deploy li, .deploy p {
+/* !!colore grigetto !!*/
+.deploy li, .deploy p, .design_text p, .features p {
   color: #949FB4;
 }
+/* colore grigetto */
 
 .deploy .container .col-xs-12:first-of-type {
   border-left: 1px solid #949FB4;
@@ -300,9 +313,10 @@ footer {
 
 
 /* media queries */
-@media screen and (min-width: 1200px) {
-  .header_top {
-  font-size: 16px;
+
+@media screen and (min-width: 769px) {
+  .customers li {
+  width: calc((100% / 6) - 10px);
 }
 
 @media screen and (min-width: 992px) {
@@ -315,7 +329,8 @@ footer {
   }
 }
 
-@media screen and (min-width: 769px) {
-  .customers li {
-  width: calc((100% / 6) - 10px);
+@media screen and (min-width: 1200px) {
+  .header_top {
+  font-size: 16px;
+  }
 }
