@@ -120,6 +120,7 @@ div.hero .form_hero h3 {
 }
 
 /* hero */
+
 .hero {
   position: relative;
   margin-top: 75px;
@@ -159,17 +160,25 @@ div.hero .form_hero h3 {
 
 .customer {
   background-color: #F2F5F9;
-  color: #949FB4;
 }
 
-.row_customers {
-  min-height: 200px;
-  line-height: 200px;
+.customers {
+  max-width: 1170px;
+  margin: auto;
+  font-size: 0;
+  padding: 0;
 }
-.customer img {
+.customer img{
   width: 100%;
-  max-height: 200px;
-  vertical-align: middle;
+}
+
+.customers li {
+  max-width: calc((100%/6) - 10px);
+}
+
+@media screen and (max-width: 768px) {
+  .customers li {
+    max-width: calc((100%/2) - 10px);
 }
 /* deploy */
 
