@@ -115,7 +115,7 @@ div.hero .form_hero h3 {
   border-color: #0265FF;
 }
 /* color blue */
-.header_top button span, div.hero .form_hero > a, .form-group p a {
+.header_top button span, div.hero .form_hero > a, .form-group p a, .customer a {
   color: #0265FF;
 }
 
@@ -172,14 +172,10 @@ div.hero .form_hero h3 {
 }
 
 .customers li {
-  max-width: calc((100%/6) - 10px);
+  max-width: calc(50% - 10px)
 }
 
-@media screen and (max-width: 768px) {
 
-  .customers li {
-    max-width: calc(50% - 10px);
-}
 /* deploy */
 
 .deploy {
@@ -317,4 +313,9 @@ footer {
   .hero_text p {
     font-size: 25px;
   }
+}
+
+@media screen and (min-width: 769px) {
+  .customers li {
+  max-width: calc((100%/6) - 10px);
 }
